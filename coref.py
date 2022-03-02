@@ -11,6 +11,7 @@ class ResolveCoref:
     def __init__(self,url="http://localhost:9000/"):
         self.nlp = StanfordCoreNLP(url)
         self.properties = {
+            'timeout': '50000',
             'annotators': 'dcoref',
             'outputFormat': 'json',
             'ner.useSUTime': 'false'

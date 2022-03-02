@@ -1,0 +1,2 @@
+# coreference_resolution_standfordnlp
+Coreference Resolution using Stanford NLP
